@@ -1,8 +1,9 @@
 # MetaQuest-OEKAKI
 MetaQuestでお絵描きするアプリ
+実際はパススルーで自分のいる場所に描くことができます。
 ![top-image](https://github.com/Bon-fire-people/MetaQuest-OEKAKI/blob/main/image/top.png)
 
-## Unity Version
+## Unity Versiongaibu 
 ・2020.3.12f1
 
 
