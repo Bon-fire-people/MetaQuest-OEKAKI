@@ -46,7 +46,7 @@ public class lineRenderer : MonoBehaviour
                 {
                     CurrentLineObject = Instantiate(LinePrefab, new Vector3(0, 0, 0), Quaternion.identity);
                     Render = CurrentLineObject.GetComponent<LineRenderer>();
-                    Render.material = _lineMat;
+                    Render.material = new Material(_lineMat);
                     LineCt += 1;
                     Render.name = Render.name + LineCt;
                 }

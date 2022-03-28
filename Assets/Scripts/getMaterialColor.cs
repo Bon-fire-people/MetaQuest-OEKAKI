@@ -57,6 +57,6 @@ public class getMaterialColor : MonoBehaviour
 
     public void setPreviewMat(Material _material)
     {
-        _mat = _material;
+        gameObject.GetComponent<MeshRenderer>().material = _material;
     }
 }
